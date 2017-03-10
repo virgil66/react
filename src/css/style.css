@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+html {
+	box-sizing: border-box;
+	text-size-adjust: auto;
+	-webkit-text-size-adjust: auto;
+	-moz-text-size-adjust: auto;
+	-ms-text-size-adjust: auto;
+	-o-text-size-adjust: auto;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+.hello,
+.warning {
+	color: red;
+}
